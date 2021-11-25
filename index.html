@@ -4,11 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Assests/style.css">
+    <link rel="stylesheet" href="/Assests/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
     <title>buidling Project</title>
   </head>
   <body>
+    <div class="container-1">
       <h2>challenge 1: Your Age in Days</h2>
-      <script src="main.js"></script>
+      <div class="flexbox-container">
+        <div>
+          <button class="btn btn-primary" onclick="ageInDays()">submit</button>
+        </div>
+        <div>
+          <button class="btn btn-danger" onclick="reset()">reset</button>
+        </div>
+      </div>
+      <div class="flexbox-container-1">
+        <div id="flexbox-result"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
